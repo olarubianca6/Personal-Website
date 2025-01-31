@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[dev]
+  command = "npm start"
+  targetPort = 3000
+  framework = "create-react-app"
