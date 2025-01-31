@@ -6,3 +6,8 @@
   command = "npm start"
   targetPort = 3000
   framework = "create-react-app"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
